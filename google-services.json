@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "348862189785",
+    "project_id": "direcktapp-21102",
+    "storage_bucket": "direcktapp-21102.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348862189785:android:8e971511343e852d662ec8",
+        "android_client_info": {
+          "package_name": "com.direcktapp.direckt"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_5bGY0Kb5plCuzTmgouM0KmOWjZYrMXI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

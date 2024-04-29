@@ -1,0 +1,56 @@
+{
+  "expo": {
+    "name": "Direckt",
+    "slug": "direckt",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/Direcktlogo.png",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share."
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "enableProguardInReleaseBuilds": true
+          }
+        }
+      ]
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/Direcktlogo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.CAMERA_ROLL",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.direcktapp.direckt",
+      "versionCode": 4
+    },
+    "web": {
+      "favicon": "./assets/Direcktlogo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0c12957b-d59b-4237-9a10-5ef2a34ecd3c"
+      }
+    },
+    "owner": "direcktapp"
+  }
+}
